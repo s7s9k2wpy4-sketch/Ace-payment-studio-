@@ -1,7 +1,8 @@
 [build]
-  command = "npm run build"
+  base = "."
+  command = ""
   functions = "netlify/functions"
-  publish = "dist"
+  publish = "public"
 
 [dev]
   command = "npm run dev"
